@@ -1,0 +1,39 @@
+<ion-view view-title="Login">
+<ion-header-bar class="bar bar-header black-background">
+    	<h1 class="title"><img src="/images/banner-white.png"></h1>
+    </ion-header-bar>
+  <ion-content class="grey-background">
+<head>
+<title>login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<div class="row">
+	  <div class="col col-20 col-offset-80">Welcome to Mobile POS</div>
+	</div>
+	<div class="row">
+	  <div class="col col-20 col-offset-80">Please Log in.</div>
+	</div>
+
+	<div class="form">
+		<div class="row">
+			<div class="col col-20 input-label">User ID</div>
+			<div class="col col-40 col-offset-10 input-label"><input class="col col-100 rounded" type="text" ng-model="username" required="true"></div>
+		</div>
+
+		<div class="row">
+			<div class="col col-20 input-label">Password</div>
+			<div class="col col-40 col-offset-10 input-label"><input class="col col-100 rounded" type="password" ng-model="password" required="true"></div>
+		</div>
+
+		<br><br>
+		<div class="row">
+			<div class="col col-20 col-offset-33 input-label">
+				<button class="rounded" type="submit"
+					ng-click="login()">
+					<img src="/images/19-circle-check.png"><br>Login</span>
+				</button>
+			</div>
+		</div>
+	</div>	
+  </ion-content>
+</ion-view>

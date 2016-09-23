@@ -1,0 +1,60 @@
+<ion-view view-title="Item List">
+  <ion-header-bar class="bar bar-header bar-positive">
+	  	<button class="button button-clear">Logout</button>
+    	<h1 class="title">Item Inquiry</h1>
+    </ion-header-bar>
+  <ion-content class="grey-background">    	
+    	<div class="list">
+			<div class="item item-divider list-divider">
+				<div class="row">
+		   			<div class="col">Item</div>
+		   			<div class="col">Unit of Measure</div>
+		   			<div class="col">Price</div>
+		   		</div>
+			</div>
+			<div class="item grey-background" ng-click="showDetails()">
+		   		<div class="row row-center">
+		   			<div class="col"><b>The Cold Drink</b><BR>Pepsi</div>
+		   			<div class="col">Units</div>
+		   			<div class="col">INR20.00</div>
+		   		</div>
+			</div>
+			<div class="item grey-background" ng-click="showDetails()">
+		   		<div class="row row-center">
+		   			<div class="col">Pepsi</div>
+		   			<div class="col">Units</div>
+		   			<div class="col">INR20.00</div>
+		   		</div>
+			</div>
+		</div>
+
+  </ion-content>
+
+  <div class="bar bar-footer bar-positive text-center">
+		<div class="col col-50" >
+			<button class="button button-clear text-center home-button" ng-click="">
+			<div class="large-navigation-button">
+			<table>
+	            <tr><td class="nav-button-img home-button"></td></tr>
+	            <tr><td class="large-navigation-button-text">home</td></tr>
+        	</table>
+        </div>
+		<!-- 		<img src="/images/36-circle-west.png" height="20"><br><span>Home</span> -->
+			</button>
+		
+		</div>
+		<div class="col col-50">
+			<button class="button button-clear text-center ">
+
+				<img src="/images/31-circle-plus.png">Buddy
+			</button>
+		</div>
+	</div>
+
+<!--   <div class="bar bar-footer bar-positive">
+   <h1 class="title row">
+   		<div class="col"><button class="button button-clear" ng-click=""><img src="/images/50-plus.png"><br>Next</button></div>
+   		<div class="col"><button class="button button-clear" ng-click=""><img src="/images/50-plus.png"><br>Next</button></div>
+</h1>
+</div> -->
+</ion-view>

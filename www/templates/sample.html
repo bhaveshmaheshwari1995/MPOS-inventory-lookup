@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    
+<title>login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="lib/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery-2.0.3.min.js"></script>
+
+</head>
+	<div class="container text-center">
+		<div class="row col-md-3 col-md-offset-8" style="margin-top:1px; background-color:black;">Welcome to Mobile POS</div>
+		<div class="row col-md-3 col-md-offset-8" style="margin-top:1px">Please Log in.</div>
+	</div>
+	<div>
+		<form class="form-horizontal">
+			<div class="row" style="margin:5% 1%">
+				<div class = "col-md-1">User ID</div>
+				<div class = "col-md-7 col-md-offset-1">
+					<input type="email" class="form-control" id="inputEmail" ng-model="login.email"
+					placeholder="Email" required="true">
+				</div>
+			</div>
+			<div class="row" style="margin:5% 1%">
+				<div class = "col-md-1">User ID</div>
+				<div class = "col-md-7 col-md-offset-1">
+					<input type="password"
+					class="form-control" id="password" ng-model="login.password"
+					placeholder="Password" required>
+				</div>
+			</div>
+					
+						
+						
+						<div>
+						    <input type="password"
+							class="form-control" id="password" ng-model="login.password"
+							placeholder="Password" required>
+						</div>
+						
+						<div ">
+							<button type="submit"
+								class="md-raised md-primary md-button md-ink-ripple mainBut"
+								ng-click="authenticate()">
+								
+								<!--Sign in <span class="glyphicon glyphicon-play"></span-->
+							</button>
+							<a class="btn btn-block" ui-sref="newEmployee"> New Aspirian? Start
+								Here <span class="glyphicon glyphicon-hand-up"></span>
+							</a>
+						</div>
+						<!--/div-->
+					</form>
+				
+		</div>
+	
+  
+</html>

@@ -1,0 +1,103 @@
+/* Empty. Add your own CSS if you like */
+/* Empty. Add your own CSS if you like */
+
+
+@media screen and (max-width : 320px)
+{
+  body
+  {
+    font-size:12px;
+  }
+}
+@media screen and (max-width : 720px)
+{
+  body 
+  {
+    font-size:10px;
+  }
+}
+@media screen and (max-width : 1280px)
+{
+  body
+  {
+    font:8px;
+  }
+}
+
+.list-divider{
+
+  background-color: #446F9D;
+  color: white;
+}
+.grey-background{
+
+  background-color: #E8E8E8;
+}
+
+.black-background{
+
+  background-color: #000000;
+}
+
+.large-navigation-button
+{ 
+  /*background-image: -webkit-linear-gradient(top, #86A4C5, #396B9E);*/
+ /* box-shadow: gray 0px 3px 1px 0px, rgba(255, 255, 255, .75) 0px 2px 0px 0px inset;*/
+  padding-top: 10px;
+  margin: 2px;
+  border: none;
+  height: 100%;
+  text-align: center;
+}
+
+.large-navigation-button:active
+{
+  /*background-image: -webkit-linear-gradient(top, #396B9E, #86A4C5);*/
+  box-shadow: none;
+}
+
+.large-navigation-button img
+{
+  width: auto;
+  height: auto;
+  max-width: 80%;
+}
+.nav-button-img
+{
+  width: auto;
+  height: 10px;
+  max-width: 80%;
+}
+.large-navigation-button-text
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-shadow: black 0px 1px 0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.large-navigation-button table
+{
+  width: 100%;
+}
+
+.large-navigation-button td
+{
+  vertical-align: middle;
+  text-align: center;
+}
+
+large-navigation-button.ui-disabled
+{
+  opacity: 0.3;
+  cursor: default !important;
+  pointer-events: none;
+}
+
+.home-button
+{
+  background:  url("../images/36-circle-west.png") 50% 50% no-repeat;
+}

@@ -1,0 +1,32 @@
+<ion-view view-title="Browse">
+  <ion-header-bar class="bar bar-header bar-positive">
+	  	<button class="button button-clear">Logout</button>
+    	<h1 class="title">Item Inquery</h1>
+    </ion-header-bar>
+  <ion-content style="background-color: #cccccc;">    	
+    	<div class="row">
+			<div class="col col-20 input-label">Item Number</div>
+		</div>
+		<div class="col col-90  input-label"><input class="col" type="text" ng-model="itemNumber" required="true"></div>
+		
+		<div class="row">
+			<div class="col col-20 input-label">Item Description</div>
+		</div>
+		<div class="col col-90  input-label"><input class="col" type="text" ng-model="itemDescription" required="true"></div>
+
+		<div class="row">
+			<div class="col col-20 input-label">Style Number</div>
+		</div>
+		<div class="col col-90  input-label"><input class="col" type="text" ng-model="styleNumber" required="true"></div>
+
+		<div class="row">
+			<div class="col col-20 input-label">Style Description</div>
+		</div>
+		<div class="col col-90  input-label"><input class="col" type="text" ng-model="styleDescription" required="true"></div>
+
+  </ion-content>
+  <div class="bar bar-footer bar-positive">
+   <h1 class="title"><button class="button button-clear" ng-click=""><img src="/images/50-plus.png"><br>Next</button>
+</h1>
+</div>
+</ion-view>
